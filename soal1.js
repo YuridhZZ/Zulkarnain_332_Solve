@@ -114,7 +114,7 @@ for (let index = 0; index < products.length; index++) {
     }
     
 }
-console.log(highestPrice);
+// console.log(highestPrice)
 let resultSeven = highestPrice.name
 
 console.log("Jawaban Soal No.7 ==> ", resultSeven + "\n")
@@ -123,7 +123,7 @@ console.log("Jawaban Soal No.7 ==> ", resultSeven + "\n")
 
 // Buat kalimat dari array kata.
 const words = ['Belajar', 'array', 'itu', 'menyenangkan'];
-let resultEight = "";
+let resultEight = ""
 for (let index = 0; index < words.length; index++) {
     resultEight += words[index]
     if (index < words.length - 1) {
@@ -136,8 +136,8 @@ console.log("Jawaban Soal No.8 ==> ", resultEight + "\n")
 
 // Ambil hanya 3 data pertama yang mengandung kata 'a' pada nama.
 const names = ['Aldo', 'Budi', 'Caca', 'Dinda', 'Eka', 'Fajar'];
-let resultNine = [];
-let index = 0;
+let resultNine = []
+let index = 0
 while (index < names.length && resultNine.length < 3) {
     if (names[index].toLowerCase().includes('a')) {
         resultNine.push(names[index]);
