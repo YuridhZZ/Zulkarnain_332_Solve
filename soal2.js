@@ -289,8 +289,7 @@ console.log(reverseArray(['a', 'b', 'c']), "\n"); // Output: ['c', 'b', 'a']
 
 //Palindrome adalah kata, frasa, angka, atau urutan karakter lain yang terbaca sama baik dari depan maupun belakang
 
-const isPalindrome = (inputUser) => {
-    
+const isPalindrome = (inputUser) => {   
     let revSentence = ""
     let sentence  = inputUser.length - 1
     for(let index = sentence; index >= 0; index--){
